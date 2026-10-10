@@ -1,0 +1,11 @@
+[build]
+  command = "pnpm --filter @workspace/cuking-studio... run build"
+  publish = "artifacts/cuking-studio/dist/public"
+
+[build.environment]
+  BASE_PATH = "/"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
