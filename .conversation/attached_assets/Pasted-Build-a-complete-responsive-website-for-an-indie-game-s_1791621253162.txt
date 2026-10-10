@@ -1,0 +1,270 @@
+Build a complete, responsive website for an indie game studio called **CUKING STUDIO**, founded by Dan Neo Adiyatma, an independent game developer known online as **nyototod**.
+
+The studio's name comes from a cute, personal variation of the Indonesian word "kucing" (cat). Cats are an important part of the studio's identity.
+
+The studio focuses on creating story-driven games, memorable characters, immersive worlds, and meaningful player experiences. Its games may use pixel art, 2D illustration, 3D graphics, RPG mechanics, or other visual styles. Do not restrict the brand identity to pixel art or dark fantasy.
+
+## 1. Design Direction
+
+Create a polished, minimalist indie game studio website with a light, warm, friendly, and slightly whimsical aesthetic.
+
+Visual inspiration:
+
+* Independent creative studios
+* Modern editorial portfolio websites
+* Minimalist Japanese-inspired design
+* Soft, playful character design
+* Premium indie game websites
+
+The website should feel personal, creative, distinctive, and professional without looking corporate or childish.
+
+### Color palette
+
+* Warm ivory: #F7F3EB
+* Cream white: #FFFDF8
+* Dark charcoal brown: #40332F
+* Soft peach: #F4B77A
+* Warm beige: #E6D8C5
+* Muted taupe: #A99A8B
+
+Use warm ivory as the primary background, charcoal brown for text, and peach sparingly for highlights and interactive elements.
+
+Avoid dark-mode-first layouts, neon colors, excessive gradients, glassmorphism, generic gaming aesthetics, and overly decorative UI.
+
+### Typography
+
+Use a clean, highly readable sans-serif typeface such as Manrope, DM Sans, or a similar modern font.
+
+Use bold, expressive headings paired with simple body text. Typography should feel slightly playful but remain professional.
+
+### Logo and mascot
+
+Use the provided CUKING STUDIO cat logo as the primary brand asset if an image file is available.
+
+The logo features a minimalist geometric cat head with pointed ears, a dark brown outline, cream fur, and subtle peach and beige details.
+
+Do not redesign, distort, or replace the original logo. If the logo file is unavailable, create a simple placeholder that can easily be replaced later.
+
+The cat mascot should appear occasionally as a small decorative element, not on every section.
+
+## 2. Website Structure
+
+Build the following pages or sections.
+
+### A. Navigation
+
+Create a clean, sticky navigation bar containing:
+
+* CUKING STUDIO logo
+* Home
+* Games
+* About
+* Devlog
+* Contact
+
+Add a small, rounded "Explore Games" button.
+
+On mobile, use a functional hamburger menu.
+
+### B. Hero Section
+
+Create a strong first impression with generous whitespace and a carefully composed layout.
+
+Main heading:
+"Small Studio. Big Stories."
+
+Supporting text:
+"We create games filled with curious worlds, memorable characters, and stories worth experiencing."
+
+Primary CTA: "Explore Our Games"
+Secondary CTA: "Meet the Studio"
+
+Include the CUKING STUDIO cat mascot and a subtle, original illustration inspired by a whimsical game world. The illustration could contain rolling hills, tiny houses, clouds, trees, or a small cat character.
+
+Keep the illustration clean and restrained. Do not make the entire website look like a pixel-art game.
+
+Add the tagline:
+"Every Pixel Has a Story."
+
+### C. Featured Games
+
+Create a visually appealing game showcase with large artwork cards.
+
+Section heading:
+"Worlds We've Created"
+
+Supporting text:
+"Every game begins with an idea. Here's where ours come to life."
+
+Each game card should support:
+
+* Game title
+* Cover artwork
+* Short description
+* Genre
+* Development status
+* A "Learn More" button
+
+Initially, the studio may not have released games. Therefore, create a polished empty-state section that says:
+
+"Every great adventure starts somewhere."
+"We're building our first worlds. Stay tuned for what's next."
+
+Make it easy to replace the empty state with real games later.
+
+Do not invent released games, awards, player counts, reviews, or achievements.
+
+### D. About the Studio
+
+Section heading:
+"A Little Studio With Big Imagination"
+
+Describe CUKING STUDIO as an independent game studio founded by Dan Neo Adiyatma.
+
+Use this copy:
+
+"CUKING STUDIO is an independent game studio built around a simple idea: games can be more than something you play. They can be worlds you remember, characters you care about, and stories that stay with you.
+
+We love experimenting with ideas, exploring different art styles, and creating experiences that make players curious about what comes next.
+
+One little idea at a time, we're building worlds of our own."
+
+Include a tasteful cat mascot illustration.
+
+### E. Developer Profile
+
+Present the founder in a simple, personal profile card.
+
+Name: Dan Neo Adiyatma
+Role: Founder & Game Developer
+Online alias: nyototod
+
+Short bio:
+"An independent game developer interested in story-driven experiences, creative worldbuilding, and bringing imaginative ideas to life through games."
+
+Include social links as configurable placeholders:
+
+* Instagram: https://www.instagram.com/nyuudesigns/
+* Behance: https://www.behance.net/
+
+Do not invent a personal photograph. Use the cat mascot or a neutral avatar placeholder if needed.
+
+### F. Development Log
+
+Section heading:
+"Behind the Builds"
+
+Create a devlog section for future development updates, experiments, artwork, prototypes, and behind-the-scenes stories.
+
+Each entry should support:
+
+* Title
+* Date
+* Thumbnail
+* Short excerpt
+* Read More link
+
+If there are no posts yet, show:
+"Something is taking shape behind the scenes."
+"Check back soon for development notes, experiments, and little discoveries."
+
+Build this section so new posts can be added easily.
+
+### G. Contact
+
+Section heading:
+"Have a Story to Share?"
+
+Supporting text:
+"For collaborations, questions, or just to say hello, we'd love to hear from you."
+
+Email: [neoadiyatma@gmail.com](mailto:neoadiyatma@gmail.com)
+
+Include links to the studio's social platforms when available.
+
+Use a mailto link for the email contact. Do not build a nonfunctional contact form or pretend messages can be submitted if no backend exists.
+
+### H. Footer
+
+Include:
+
+* CUKING STUDIO logo
+* "Every Pixel Has a Story."
+* Navigation links
+* Email
+* Social links
+* Copyright notice: © [current year] CUKING STUDIO
+
+Keep the footer minimal and consistent with the site's visual identity.
+
+## 3. Interactions and Animation
+
+Implement subtle, polished interactions:
+
+* Smooth scrolling
+* Gentle hover effects on buttons and cards
+* Small transitions when sections enter the viewport
+* A subtle movement or floating animation for decorative elements
+* Clear hover and keyboard-focus states
+
+Respect reduced-motion accessibility preferences.
+
+Avoid excessive animations, cursor effects, loud sound effects, or distracting parallax.
+
+## 4. Technical Requirements
+
+Build a real, working website, not just a static mockup.
+
+Use a modern and maintainable frontend stack supported by Replit, preferably:
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+
+Use reusable components and clean, well-organized code.
+
+Requirements:
+
+* Fully responsive on desktop, tablet, and mobile
+* Accessible semantic HTML
+* Good color contrast
+* Optimized image sizes
+* SEO-friendly page title and meta description
+* Open Graph metadata
+* Favicon using the cat logo when available
+* Working navigation and social links
+* Functional mobile menu
+* No broken images or dead buttons
+* No unnecessary backend or database
+* No paid APIs or services required
+* No exposed API keys or secrets
+
+Use locally stored assets or free-to-use assets with appropriate licenses. Do not hotlink random images from websites.
+
+Create tasteful placeholder artwork where necessary and keep all images easy to replace.
+
+## 5. Content and Maintainability
+
+Store game entries, devlog entries, social links, and studio information in clearly organized configuration files or data arrays so I can update the content without editing multiple components.
+
+Use realistic placeholder content only where needed, clearly distinguishing placeholders from real studio information.
+
+Do not claim that the studio has released games if it has not.
+
+## 6. Final Quality
+
+The final website should look like a carefully art-directed indie game studio website, not a generic SaaS landing page or an AI-generated template.
+
+Prioritize:
+
+1. Strong visual hierarchy
+2. Distinctive cat-based branding
+3. Warm light-theme aesthetics
+4. Beautiful typography and spacing
+5. A memorable hero section
+6. A clean portfolio structure that can grow as the studio releases games
+
+Before finishing, run the project, fix compilation errors, verify all navigation and interactive elements, and ensure the site works on mobile screens.
+
+Start by building the complete website with all sections, then show me how to replace the logo, game artwork, and website content.

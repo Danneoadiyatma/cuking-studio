@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "CUKING STUDIO"
+description = "A responsive home for CUKING STUDIO, an independent game studio founded by Dan Neo Adiyatma, sharing its creative identity, future games, development notes, and contact details."
+version = "1.0.0"
+id = "artifacts/cuking-studio"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 23460
+
+[services.development]
+run = "pnpm --filter @workspace/cuking-studio run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/cuking-studio", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/cuking-studio/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "23460"
+BASE_PATH = "/"
